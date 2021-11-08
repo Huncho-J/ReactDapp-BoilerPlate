@@ -3,10 +3,26 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { ChakraProvider } from "@chakra-ui/react"
+import { extendTheme } from "@chakra-ui/react"
+import { MoralisProvider } from "react-moralis";
+
+const appId = "nQqqhP8hpj9dSBDDxTwSnOdNQJSDIaJnNCzOwWdQ";
+const server_Url = "https://dehmiewhp5pm.usemoralis.com:2053/server";
+
+const theme = extendTheme({
+  config:{
+    initialColorMode:'dark',
+    },
+  });
 
 ReactDOM.render(
   <React.StrictMode>
+    <MoralisProvider appId={appId} server_Url={server_Url}>
+     <ChakraProvider theme={theme}>
     <App />
+    </ChakraProvider>
+    </MoralisProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
