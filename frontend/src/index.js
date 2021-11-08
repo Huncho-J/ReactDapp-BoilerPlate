@@ -7,8 +7,8 @@ import { extendTheme } from "@chakra-ui/react"
 import { MoralisProvider } from "react-moralis";
 
 //retrieve info from your Moralis account
-const appId = "nQqqhP8hpj9dSBDDxTwSnOdNQJSDIaJnNCzOwWdQ"
-const serverUrl = "https://dehmiewhp5pm.usemoralis.com:2053/server"
+const appId = ""
+const serverUrl = ""
 
 const theme = extendTheme({
   config:{
