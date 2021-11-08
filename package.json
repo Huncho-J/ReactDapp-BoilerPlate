@@ -1,0 +1,23 @@
+{
+  "name": "ReactDapp-BoilerPlate",
+  "version": "1.0.0",
+  "description": "A simple starter template for building dapp with Truffle &amp; React.",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Huncho-J/ReactDapp-BoilerPlate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Huncho-J/ReactDapp-BoilerPlate/issues"
+  },
+  "homepage": "https://github.com/Huncho-J/ReactDapp-BoilerPlate#readme"
+}
