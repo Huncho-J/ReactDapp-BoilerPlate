@@ -1,6 +1,9 @@
 # ReactDapp-BoilerPlate
   A simple starter template for developing Dapps. 
+  
   This template was built on Truffle, React & Moralis.
+  
+  Comes with Moralis inspired MetaMask Authentication.
 
 # Quick Start Guide
 
