@@ -4,7 +4,7 @@ import { useMoralis } from "react-moralis";
 //import MyTodoList from './contract_build/MyTodoList.json';
 import {Moralis} from 'moralis'
 import './App.css';
-import{MyTodo} from './MyTodo.js'
+import{Login} from './Login.js'
 
 function App() {
   const {isAuthenticated,logout } = useMoralis();
@@ -20,7 +20,7 @@ function App() {
 
     return (
       <Container>
-      <MyTodo />
+      <Login />
       </Container>
     );
 
