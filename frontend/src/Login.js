@@ -1,20 +1,20 @@
-import { Button, Container, Heading, Box, Stack} from "@chakra-ui/react"
+import { Button,Box, Stack} from "@chakra-ui/react"
 import { useMoralis } from "react-moralis";
 
-const Signup = () => {
+const Component = () => {
     return (
       <Box>
-      <Button>SSSSS</Button>
+      <Button>Test</Button>
       </Box>
     );
   }
 
 export const Login =() => {
-  const { authenticate, isAuthenticated,isAuthenticating,logout } = useMoralis();
+  const { authenticate,isAuthenticating} = useMoralis();
 return(
  <Stack>
  <Button  isLoading={isAuthenticating} onClick={() => authenticate()}>Connect with MetaMask</Button>
- <Signup />
+ <Component />
  </Stack>
 );
 }
