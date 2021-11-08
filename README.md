@@ -1,5 +1,5 @@
 # ReactDapp-BoilerPlate
-A simple starter template for building dapp with Truffle, React &amp; Moralis.
+A simple starter template for building dapp with Truffle, React & Moralis.
 
 
 Quick Start Guide
