@@ -7,8 +7,9 @@ import { ChakraProvider } from "@chakra-ui/react"
 import { extendTheme } from "@chakra-ui/react"
 import { MoralisProvider } from "react-moralis";
 
-const appId = "nQqqhP8hpj9dSBDDxTwSnOdNQJSDIaJnNCzOwWdQ";
-const server_Url = "https://dehmiewhp5pm.usemoralis.com:2053/server";
+//retrieve info from your Moralis account
+const appId = "nQqqhP8hpj9dSBDDxTwSnOdNQJSDIaJnNCzOwWdQ"
+const serverUrl = "https://dehmiewhp5pm.usemoralis.com:2053/server"
 
 const theme = extendTheme({
   config:{
@@ -18,7 +19,7 @@ const theme = extendTheme({
 
 ReactDOM.render(
   <React.StrictMode>
-    <MoralisProvider appId={appId} server_Url={server_Url}>
+    <MoralisProvider appId={appId} serverUrl={serverUrl}>
      <ChakraProvider theme={theme}>
     <App />
     </ChakraProvider>
