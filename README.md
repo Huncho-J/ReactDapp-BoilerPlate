@@ -12,4 +12,5 @@ Install all dependencies:
 #Navigate to command prompt
 
 cd ReactDapp-BoilerPlate
+
 npm install
